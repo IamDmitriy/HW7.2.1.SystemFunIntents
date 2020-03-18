@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HW7.2.1.SystemFunIntents</string>
+    <string name="hint_input">Название объекта</string>
+    <string name="search">Поиск</string>
+</resources>
