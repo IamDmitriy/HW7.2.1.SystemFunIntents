@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String input = edtSearch.getText().toString();
                 if (input.isEmpty()) {
-                    Toast.makeText(MainActivity.this, "Введите данные!",
+                    Toast.makeText(MainActivity.this, getString(R.string.empty_field_message),
                             Toast.LENGTH_SHORT).show();
                     return;
                 }
